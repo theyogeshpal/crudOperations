@@ -1,0 +1,169 @@
+﻿@model IEnumerable<tasktwodotnet.Models.User>
+
+@{
+    ViewData["Title"] = "User Management";
+}
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined">
+
+<style>
+    body {
+        background-color: #f8fafc;
+        font-family: 'Inter', sans-serif;
+    }
+
+    .table-container {
+        background: white;
+        border-radius: 15px;
+        box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+        padding: 25px;
+        margin-top: 20px;
+    }
+
+    .table thead th {
+        background-color: #f1f5f9;
+        color: #475569;
+        font-weight: 600;
+        text-transform: uppercase;
+        font-size: 0.75rem;
+        letter-spacing: 0.05em;
+        border: none;
+        padding: 15px;
+    }
+
+    .table tbody td {
+        padding: 15px;
+        vertical-align: middle;
+        color: #1e293b;
+        border-bottom: 1px solid #f1f5f9;
+    }
+
+    .user-name {
+        font-weight: 600;
+        color: #0f172a;
+    }
+
+    .user-email {
+        color: #64748b;
+        font-size: 0.85rem;
+    }
+
+    .btn-action {
+        padding: 6px 12px;
+        border-radius: 8px;
+        font-size: 0.85rem;
+        font-weight: 500;
+        display: inline-flex;
+        align-items: center;
+        gap: 5px;
+        transition: all 0.2s;
+        text-decoration: none;
+    }
+
+    .btn-edit {
+        background: #eff6ff;
+        color: #2563eb;
+    }
+
+        .btn-edit:hover {
+            background: #2563eb;
+            color: white;
+        }
+
+    .btn-delete {
+        background: #fff1f2;
+        color: #e11d48;
+    }
+
+        .btn-delete:hover {
+            background: #e11d48;
+            color: white;
+        }
+
+    .search-box {
+        max-width: 300px;
+        border-radius: 10px;
+        background: #f1f5f9;
+        border: 1px solid #e2e8f0;
+    }
+</style>
+
+<div class="container-fluid px-4 py-5">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <div>
+            <h2 class="fw-bold mb-1">User Directory</h2>
+            <p class="text-muted small">Manage all registered users and their information.</p>
+        </div>
+        <div class="d-flex gap-2">
+            <input type="text" id="tableSearch" class="form-control search-box" placeholder="Search users...">
+            <a asp-action="Register" class="btn btn-primary d-flex align-items-center gap-2 px-4 py-2 rounded-3 shadow-sm">
+                <i class="material-icons-outlined">person_add</i> Add New User
+            </a>
+        </div>
+    </div>
+
+
+
+    <div class="table-container">
+        <div class="table-responsive">
+            <table class="table table-hover mb-0" id="userTable">
+                <thead>
+                    <tr>
+                        <th>User Info</th>
+                        <th>Contact</th>
+                        <th>Location</th>
+                        <th>DOB</th>
+                        <th>Address</th>
+                        <th class="text-end">Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var user in Model)
+                    {
+                        <tr>
+                            <td>
+                                <div class="user-name">@user.name</div>
+                                <div class="user-email">@user.email</div>
+                            </td>
+                            <td>
+                                <div class="small fw-medium">@user.mobile</div>
+                                <div class="text-muted extra-small" style="font-size: 0.75rem;">Password: ••••••••</div>
+                            </td>
+                            <td>
+                                <span class="badge bg-light text-dark border">@user.city</span>
+                            </td>
+                            <td class="text-muted small">@user.dob</td>
+                            <td class="text-muted small" style="max-width: 200px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">
+                                @user.address
+                            </td>
+                            <td>
+                                <div class="d-flex justify-content-end gap-2">
+                                    <a asp-action="Edit" asp-route-id="@user.id" class="btn-action btn-edit">
+                                        <i class="material-icons-outlined fs-6">edit</i> Edit
+                                    </a>
+                                    <a asp-action="Delete" asp-route-id="@user.id" class="btn-action btn-delete"
+                                       onclick="return confirm('Are you sure you want to delete this user?')">
+                                        <i class="material-icons-outlined fs-6">delete</i> Delete
+                                    </a>
+                                </div>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<script>
+    // Simple Search Filter
+    document.getElementById('tableSearch').addEventListener('keyup', function() {
+        let value = this.value.toLowerCase();
+        let rows = document.querySelectorAll('#userTable tbody tr');
+
+        rows.forEach(row => {
+            row.style.display = row.innerText.toLowerCase().includes(value) ? '' : 'none';
+        });
+    });
+</script>

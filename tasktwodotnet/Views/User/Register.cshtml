@@ -1,0 +1,193 @@
+﻿@model tasktwodotnet.Models.User;
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Join Us | Register</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined">
+
+    <style>
+        body {
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            font-family: 'Inter', sans-serif;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            padding: 40px 0;
+        }
+
+        .reg-card {
+            background: #ffffff;
+            border-radius: 24px;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+            overflow: hidden;
+            border: none;
+        }
+
+        .reg-header {
+            background: #4f46e5;
+            padding: 30px;
+            color: white;
+            text-align: center;
+        }
+
+            .reg-header h1 {
+                font-weight: 700;
+                font-size: 1.75rem;
+                margin: 0;
+            }
+
+        .form-label {
+            font-weight: 600;
+            font-size: 0.85rem;
+            color: #475569;
+            margin-bottom: 6px;
+        }
+
+        .form-control {
+            border: 1px solid #e2e8f0;
+            padding: 12px 15px;
+            border-radius: 10px;
+            background: #f8fafc;
+        }
+
+            .form-control:focus {
+                background: #fff;
+                border-color: #4f46e5;
+                box-shadow: 0 0 0 4px rgba(79, 70, 229, 0.1);
+            }
+
+        .btn-register {
+            background: #4f46e5;
+            border: none;
+            padding: 14px;
+            font-weight: 700;
+            border-radius: 12px;
+            transition: all 0.3s;
+        }
+
+            .btn-register:hover {
+                background: #4338ca;
+                transform: translateY(-2px);
+                box-shadow: 0 10px 20px rgba(79, 70, 229, 0.2);
+            }
+
+        .input-group-text {
+            background: #f8fafc;
+            border-right: none;
+            color: #94a3b8;
+            border-radius: 10px 0 0 10px;
+        }
+
+        .input-group > .form-control {
+            border-left: none;
+            border-radius: 0 10px 10px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-7 col-md-9">
+
+                <div class="reg-card">
+                    <div class="reg-header">
+                        <i class="material-icons-outlined fs-1 mb-2">how_to_reg</i>
+                        <h1>Create Account</h1>
+                        <p class="mb-0 opacity-75">Join our community today</p>
+                    </div>
+
+                    <div class="p-4 p-md-5">
+                        @if (TempData["emailavl"] != null)
+                        {
+                            <div class="alert alert-warning border-0 shadow-sm d-flex align-items-center mb-4" role="alert">
+                                <i class="material-icons-outlined me-2">warning</i>
+                                <div>@TempData["emailavl"]</div>
+                            </div>
+                        }
+
+                        <form method="post" asp-action="SaveData">
+                            <div class="row g-4">
+                                <div class="col-12">
+                                    <label class="form-label">Full Name</label>
+                                    <div class="input-group">
+                                        <span class="input-group-text"><i class="material-icons-outlined fs-6">person</i></span>
+                                        <input asp-for="name" class="form-control" placeholder="e.g. Alex Johnson" required />
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <label class="form-label">Email Address</label>
+                                    <div class="input-group">
+                                        <span class="input-group-text"><i class="material-icons-outlined fs-6">alternate_email</i></span>
+                                        <input asp-for="email" type="email" class="form-control" placeholder="alex@example.com" required />
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <label class="form-label">Password</label>
+                                    <div class="input-group">
+                                        <span class="input-group-text"><i class="material-icons-outlined fs-6">lock_reset</i></span>
+                                        <input asp-for="password" type="password" class="form-control" placeholder="••••••••" required />
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <label class="form-label">Mobile Number</label>
+                                    <div class="input-group">
+                                        <span class="input-group-text"><i class="material-icons-outlined fs-6">call</i></span>
+                                        <input asp-for="mobile" type="number" class="form-control" placeholder="1234567890" />
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <label class="form-label">Date of Birth</label>
+                                    <div class="input-group">
+                                        <span class="input-group-text"><i class="material-icons-outlined fs-6">cake</i></span>
+                                        <input asp-for="dob" type="date" class="form-control" />
+                                    </div>
+                                </div>
+
+                                <div class="col-12">
+                                    <label class="form-label">City</label>
+                                    <div class="input-group">
+                                        <span class="input-group-text"><i class="material-icons-outlined fs-6">location_city</i></span>
+                                        <input asp-for="city" type="text" class="form-control" placeholder="e.g. New York" />
+                                    </div>
+                                </div>
+
+                                <div class="col-12">
+                                    <label class="form-label">Full Address</label>
+                                    <div class="input-group">
+                                        <span class="input-group-text"><i class="material-icons-outlined fs-6">home</i></span>
+                                        <textarea asp-for="address" class="form-control" rows="2" placeholder="Street name, Apartment, etc."></textarea>
+                                    </div>
+                                </div>
+
+                                <div class="col-12 mt-5">
+                                    <button type="submit" class="btn btn-primary w-100 btn-register shadow">
+                                        Complete Registration
+                                    </button>
+                                    <p class="text-center mt-3 text-muted small">
+                                        Already have an account? <a asp-action="Login" class="text-primary text-decoration-none fw-bold">Sign In</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

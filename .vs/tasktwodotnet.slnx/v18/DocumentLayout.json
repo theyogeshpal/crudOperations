@@ -1,0 +1,258 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\palyo\\source\\repos\\tasktwodotnet\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D769D563-056B-C6CF-7745-3D6E8164EB03}|tasktwodotnet\\tasktwodotnet.csproj|c:\\users\\palyo\\source\\repos\\tasktwodotnet\\tasktwodotnet\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D769D563-056B-C6CF-7745-3D6E8164EB03}|tasktwodotnet\\tasktwodotnet.csproj|solutionrelative:tasktwodotnet\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D769D563-056B-C6CF-7745-3D6E8164EB03}|tasktwodotnet\\tasktwodotnet.csproj|c:\\users\\palyo\\source\\repos\\tasktwodotnet\\tasktwodotnet\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D769D563-056B-C6CF-7745-3D6E8164EB03}|tasktwodotnet\\tasktwodotnet.csproj|solutionrelative:tasktwodotnet\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D769D563-056B-C6CF-7745-3D6E8164EB03}|tasktwodotnet\\tasktwodotnet.csproj|c:\\users\\palyo\\source\\repos\\tasktwodotnet\\tasktwodotnet\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D769D563-056B-C6CF-7745-3D6E8164EB03}|tasktwodotnet\\tasktwodotnet.csproj|solutionrelative:tasktwodotnet\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D769D563-056B-C6CF-7745-3D6E8164EB03}|tasktwodotnet\\tasktwodotnet.csproj|c:\\users\\palyo\\source\\repos\\tasktwodotnet\\tasktwodotnet\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D769D563-056B-C6CF-7745-3D6E8164EB03}|tasktwodotnet\\tasktwodotnet.csproj|solutionrelative:tasktwodotnet\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D769D563-056B-C6CF-7745-3D6E8164EB03}|tasktwodotnet\\tasktwodotnet.csproj|c:\\users\\palyo\\source\\repos\\tasktwodotnet\\tasktwodotnet\\views\\user\\verifyotp.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D769D563-056B-C6CF-7745-3D6E8164EB03}|tasktwodotnet\\tasktwodotnet.csproj|solutionrelative:tasktwodotnet\\views\\user\\verifyotp.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D769D563-056B-C6CF-7745-3D6E8164EB03}|tasktwodotnet\\tasktwodotnet.csproj|c:\\users\\palyo\\source\\repos\\tasktwodotnet\\tasktwodotnet\\views\\user\\showdata.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D769D563-056B-C6CF-7745-3D6E8164EB03}|tasktwodotnet\\tasktwodotnet.csproj|solutionrelative:tasktwodotnet\\views\\user\\showdata.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D769D563-056B-C6CF-7745-3D6E8164EB03}|tasktwodotnet\\tasktwodotnet.csproj|c:\\users\\palyo\\source\\repos\\tasktwodotnet\\tasktwodotnet\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D769D563-056B-C6CF-7745-3D6E8164EB03}|tasktwodotnet\\tasktwodotnet.csproj|solutionrelative:tasktwodotnet\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D769D563-056B-C6CF-7745-3D6E8164EB03}|tasktwodotnet\\tasktwodotnet.csproj|c:\\users\\palyo\\source\\repos\\tasktwodotnet\\tasktwodotnet\\views\\user\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D769D563-056B-C6CF-7745-3D6E8164EB03}|tasktwodotnet\\tasktwodotnet.csproj|solutionrelative:tasktwodotnet\\views\\user\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D769D563-056B-C6CF-7745-3D6E8164EB03}|tasktwodotnet\\tasktwodotnet.csproj|c:\\users\\palyo\\source\\repos\\tasktwodotnet\\tasktwodotnet\\views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D769D563-056B-C6CF-7745-3D6E8164EB03}|tasktwodotnet\\tasktwodotnet.csproj|solutionrelative:tasktwodotnet\\views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D769D563-056B-C6CF-7745-3D6E8164EB03}|tasktwodotnet\\tasktwodotnet.csproj|c:\\users\\palyo\\source\\repos\\tasktwodotnet\\tasktwodotnet\\views\\user\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D769D563-056B-C6CF-7745-3D6E8164EB03}|tasktwodotnet\\tasktwodotnet.csproj|solutionrelative:tasktwodotnet\\views\\user\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D769D563-056B-C6CF-7745-3D6E8164EB03}|tasktwodotnet\\tasktwodotnet.csproj|c:\\users\\palyo\\source\\repos\\tasktwodotnet\\tasktwodotnet\\views\\user\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D769D563-056B-C6CF-7745-3D6E8164EB03}|tasktwodotnet\\tasktwodotnet.csproj|solutionrelative:tasktwodotnet\\views\\user\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D769D563-056B-C6CF-7745-3D6E8164EB03}|tasktwodotnet\\tasktwodotnet.csproj|c:\\users\\palyo\\source\\repos\\tasktwodotnet\\tasktwodotnet\\tasktwodotnet.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D769D563-056B-C6CF-7745-3D6E8164EB03}|tasktwodotnet\\tasktwodotnet.csproj|solutionrelative:tasktwodotnet\\tasktwodotnet.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D769D563-056B-C6CF-7745-3D6E8164EB03}|tasktwodotnet\\tasktwodotnet.csproj|c:\\users\\palyo\\source\\repos\\tasktwodotnet\\tasktwodotnet\\views\\user\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D769D563-056B-C6CF-7745-3D6E8164EB03}|tasktwodotnet\\tasktwodotnet.csproj|solutionrelative:tasktwodotnet\\views\\user\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D769D563-056B-C6CF-7745-3D6E8164EB03}|tasktwodotnet\\tasktwodotnet.csproj|c:\\users\\palyo\\source\\repos\\tasktwodotnet\\tasktwodotnet\\services\\emailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D769D563-056B-C6CF-7745-3D6E8164EB03}|tasktwodotnet\\tasktwodotnet.csproj|solutionrelative:tasktwodotnet\\services\\emailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\palyo\\source\\repos\\tasktwodotnet\\tasktwodotnet\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "tasktwodotnet\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\palyo\\source\\repos\\tasktwodotnet\\tasktwodotnet\\Controllers\\UserController.cs",
+              "RelativeToolTip": "tasktwodotnet\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAGQAAAAAAAAAAADwv3YAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T04:58:15.526Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\palyo\\source\\repos\\tasktwodotnet\\tasktwodotnet\\Models\\User.cs",
+              "RelativeDocumentMoniker": "tasktwodotnet\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\palyo\\source\\repos\\tasktwodotnet\\tasktwodotnet\\Models\\User.cs",
+              "RelativeToolTip": "tasktwodotnet\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T05:22:27.688Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\palyo\\source\\repos\\tasktwodotnet\\tasktwodotnet\\appsettings.json",
+              "RelativeDocumentMoniker": "tasktwodotnet\\appsettings.json",
+              "ToolTip": "C:\\Users\\palyo\\source\\repos\\tasktwodotnet\\tasktwodotnet\\appsettings.json",
+              "RelativeToolTip": "tasktwodotnet\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-13T05:08:53.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\palyo\\source\\repos\\tasktwodotnet\\tasktwodotnet\\Views\\User\\Login.cshtml",
+              "RelativeDocumentMoniker": "tasktwodotnet\\Views\\User\\Login.cshtml",
+              "ToolTip": "C:\\Users\\palyo\\source\\repos\\tasktwodotnet\\tasktwodotnet\\Views\\User\\Login.cshtml",
+              "RelativeToolTip": "tasktwodotnet\\Views\\User\\Login.cshtml",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAkwKcAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-09T07:04:58.796Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "changepassword.cshtml",
+              "DocumentMoniker": "C:\\Users\\palyo\\source\\repos\\tasktwodotnet\\tasktwodotnet\\Views\\User\\changepassword.cshtml",
+              "RelativeDocumentMoniker": "tasktwodotnet\\Views\\User\\changepassword.cshtml",
+              "ToolTip": "C:\\Users\\palyo\\source\\repos\\tasktwodotnet\\tasktwodotnet\\Views\\User\\changepassword.cshtml",
+              "RelativeToolTip": "tasktwodotnet\\Views\\User\\changepassword.cshtml",
+              "ViewState": "AgIAAI0AAAAAAAAAAIBJwLAAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-09T06:58:32.54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Profile.cshtml",
+              "DocumentMoniker": "C:\\Users\\palyo\\source\\repos\\tasktwodotnet\\tasktwodotnet\\Views\\User\\Profile.cshtml",
+              "RelativeDocumentMoniker": "tasktwodotnet\\Views\\User\\Profile.cshtml",
+              "ToolTip": "C:\\Users\\palyo\\source\\repos\\tasktwodotnet\\tasktwodotnet\\Views\\User\\Profile.cshtml",
+              "RelativeToolTip": "tasktwodotnet\\Views\\User\\Profile.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKgAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-09T07:06:28.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\palyo\\source\\repos\\tasktwodotnet\\tasktwodotnet\\Program.cs",
+              "RelativeDocumentMoniker": "tasktwodotnet\\Program.cs",
+              "ToolTip": "C:\\Users\\palyo\\source\\repos\\tasktwodotnet\\tasktwodotnet\\Program.cs",
+              "RelativeToolTip": "tasktwodotnet\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T06:39:51.667Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\palyo\\source\\repos\\tasktwodotnet\\tasktwodotnet\\Views\\User\\Edit.cshtml",
+              "RelativeDocumentMoniker": "tasktwodotnet\\Views\\User\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\palyo\\source\\repos\\tasktwodotnet\\tasktwodotnet\\Views\\User\\Edit.cshtml",
+              "RelativeToolTip": "tasktwodotnet\\Views\\User\\Edit.cshtml",
+              "ViewState": "AgIAAHwAAAAAAAAAAAAkwKUAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-09T07:07:46.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "VerifyOTP.cshtml",
+              "DocumentMoniker": "C:\\Users\\palyo\\source\\repos\\tasktwodotnet\\tasktwodotnet\\Views\\User\\VerifyOTP.cshtml",
+              "RelativeDocumentMoniker": "tasktwodotnet\\Views\\User\\VerifyOTP.cshtml",
+              "ToolTip": "C:\\Users\\palyo\\source\\repos\\tasktwodotnet\\tasktwodotnet\\Views\\User\\VerifyOTP.cshtml",
+              "RelativeToolTip": "tasktwodotnet\\Views\\User\\VerifyOTP.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAH4AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-09T06:34:53.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "tasktwodotnet.csproj",
+              "DocumentMoniker": "C:\\Users\\palyo\\source\\repos\\tasktwodotnet\\tasktwodotnet\\tasktwodotnet.csproj",
+              "RelativeDocumentMoniker": "tasktwodotnet\\tasktwodotnet.csproj",
+              "ToolTip": "C:\\Users\\palyo\\source\\repos\\tasktwodotnet\\tasktwodotnet\\tasktwodotnet.csproj",
+              "RelativeToolTip": "tasktwodotnet\\tasktwodotnet.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-01-09T06:39:06.197Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\palyo\\source\\repos\\tasktwodotnet\\tasktwodotnet\\Views\\User\\Register.cshtml",
+              "RelativeDocumentMoniker": "tasktwodotnet\\Views\\User\\Register.cshtml",
+              "ToolTip": "C:\\Users\\palyo\\source\\repos\\tasktwodotnet\\tasktwodotnet\\Views\\User\\Register.cshtml",
+              "RelativeToolTip": "tasktwodotnet\\Views\\User\\Register.cshtml",
+              "ViewState": "AgIAAJcAAAAAAAAAAAAkwMAAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-09T07:04:06.382Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "EmailSender.cs",
+              "DocumentMoniker": "C:\\Users\\palyo\\source\\repos\\tasktwodotnet\\tasktwodotnet\\Services\\EmailSender.cs",
+              "RelativeDocumentMoniker": "tasktwodotnet\\Services\\EmailSender.cs",
+              "ToolTip": "C:\\Users\\palyo\\source\\repos\\tasktwodotnet\\tasktwodotnet\\Services\\EmailSender.cs",
+              "RelativeToolTip": "tasktwodotnet\\Services\\EmailSender.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBYAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T06:39:30.53Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\palyo\\source\\repos\\tasktwodotnet\\tasktwodotnet\\Views\\User\\Index.cshtml",
+              "RelativeDocumentMoniker": "tasktwodotnet\\Views\\User\\Index.cshtml",
+              "ToolTip": "C:\\Users\\palyo\\source\\repos\\tasktwodotnet\\tasktwodotnet\\Views\\User\\Index.cshtml",
+              "RelativeToolTip": "tasktwodotnet\\Views\\User\\Index.cshtml",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAkwJwAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-09T07:08:13.42Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Showdata.cshtml",
+              "DocumentMoniker": "C:\\Users\\palyo\\source\\repos\\tasktwodotnet\\tasktwodotnet\\Views\\User\\Showdata.cshtml",
+              "RelativeDocumentMoniker": "tasktwodotnet\\Views\\User\\Showdata.cshtml",
+              "ToolTip": "C:\\Users\\palyo\\source\\repos\\tasktwodotnet\\tasktwodotnet\\Views\\User\\Showdata.cshtml",
+              "RelativeToolTip": "tasktwodotnet\\Views\\User\\Showdata.cshtml",
+              "ViewState": "AgIAAH8AAAAAAAAAAAAkwKgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-09T07:11:42.999Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
